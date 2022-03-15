@@ -1,4 +1,4 @@
-# **Node Module System**
+# **Node Modules Made Easy**
 
 Node.js provides an environment outside of the browser for executing javascript code.
 
@@ -8,7 +8,7 @@ To keep our project organised and maintainable, we split our whole project into 
 
 Understanding how modules work is very important as a node.js developer because node.js operates a module system which makes it easy for developers to separate out your code logic which can be reused.
 
-## **Node Module System Architecture**
+## **Understand The System Design Like A,B,C...**
 
 In the Node.js module system, each file is treated as a separate module and before each module is ran/executed wrapped with a function which gives you access to variables like `exports`, `__filename`, `require`, etc.
 
@@ -27,12 +27,14 @@ function(exports, require, module, __filename, __dirname) {
 
 ### **require**  
 
-Allows for a module to import other modules.
+Allows for a module to import/bring in other modules.
+There are 2 ways to use the `require()` method
+- You can specify an absolute path for your module - this is used when you are 
 example
 
 ```javascript
 
-let path = require("path")
+let path = require("path") // this is used for installed or core modules
 
 let myModule = require("./mymodule.js")
 

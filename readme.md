@@ -4,9 +4,9 @@
 
 
 - What is NodeJS
-- Node Architecture
+- Node Design/Architecture
 - Installing Node
-- Node Modules
+- Node Modules Made Easy
 - Path Module
 - File System Module
 - HTTP Module
